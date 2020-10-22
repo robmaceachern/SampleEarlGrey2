@@ -1,0 +1,38 @@
+PODS:
+  - EarlGreyApp (2.2.0)
+  - EarlGreyTest (2.2.0):
+    - eDistantObject (= 1.0.1)
+  - eDistantObject (1.0.1)
+
+DEPENDENCIES:
+  - EarlGreyApp (from `https://github.com/google/EarlGrey`, branch `earlgrey2`)
+  - EarlGreyTest (from `https://github.com/google/EarlGrey`, branch `earlgrey2`)
+
+SPEC REPOS:
+  trunk:
+    - eDistantObject
+
+EXTERNAL SOURCES:
+  EarlGreyApp:
+    :branch: earlgrey2
+    :git: https://github.com/google/EarlGrey
+  EarlGreyTest:
+    :branch: earlgrey2
+    :git: https://github.com/google/EarlGrey
+
+CHECKOUT OPTIONS:
+  EarlGreyApp:
+    :commit: 34c7a16d45e23aac56f216693d83672460145974
+    :git: https://github.com/google/EarlGrey
+  EarlGreyTest:
+    :commit: 34c7a16d45e23aac56f216693d83672460145974
+    :git: https://github.com/google/EarlGrey
+
+SPEC CHECKSUMS:
+  EarlGreyApp: fab2c3ec82a15da811bb3b7354ad97c2a5030bc9
+  EarlGreyTest: 8e79796b2b2b92fdec811c57a04d78d5fbe05620
+  eDistantObject: 65a4ac3d9a23b31245729c7d243edc427a3fb9da
+
+PODFILE CHECKSUM: 593d451abdd1afdce29828be5d3954c61f0c7643
+
+COCOAPODS: 1.9.3

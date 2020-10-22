@@ -1,0 +1,6 @@
+framework module Pods_SampleEarlGrey2_SampleEarlGrey2UITests {
+  umbrella header "Pods-SampleEarlGrey2-SampleEarlGrey2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

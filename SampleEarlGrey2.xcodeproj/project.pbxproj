@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4433847253E2C8800190D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4433846253E2C8800190D73 /* AppDelegate.swift */; };
+		D4433849253E2C8800190D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4433848253E2C8800190D73 /* SceneDelegate.swift */; };
+		D443384B253E2C8800190D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443384A253E2C8800190D73 /* ViewController.swift */; };
+		D443384E253E2C8800190D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D443384C253E2C8800190D73 /* Main.storyboard */; };
+		D4433850253E2C8A00190D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D443384F253E2C8A00190D73 /* Assets.xcassets */; };
+		D4433853253E2C8A00190D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4433851253E2C8A00190D73 /* LaunchScreen.storyboard */; };
+		D4433862253E2F2E00190D73 /* SampleEarlGrey2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4433861253E2F2E00190D73 /* SampleEarlGrey2UITests.swift */; };
+		F04F45F171EE7F9071EBA839 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B85A0BBA4072126165C824 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework */; };
+		F97B52297470B2EA574EE375 /* Pods_SampleEarlGrey2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45786ECB807BFD6F166F2001 /* Pods_SampleEarlGrey2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4433864253E2F2E00190D73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D443383B253E2C8800190D73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4433842253E2C8800190D73;
+			remoteInfo = SampleEarlGrey2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45786ECB807BFD6F166F2001 /* Pods_SampleEarlGrey2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleEarlGrey2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86212971CBCD7B276538697A /* Pods-SampleEarlGrey2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2.debug.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2/Pods-SampleEarlGrey2.debug.xcconfig"; sourceTree = "<group>"; };
+		8CCD1F0114E49B767AFEC2DB /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		992234B229806C13546FF593 /* Pods-SampleEarlGrey2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2.release.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2/Pods-SampleEarlGrey2.release.xcconfig"; sourceTree = "<group>"; };
+		D4433843253E2C8800190D73 /* SampleEarlGrey2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleEarlGrey2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4433846253E2C8800190D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4433848253E2C8800190D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D443384A253E2C8800190D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D443384D253E2C8800190D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D443384F253E2C8A00190D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4433852253E2C8A00190D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4433854253E2C8A00190D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D443385F253E2F2E00190D73 /* SampleEarlGrey2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleEarlGrey2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4433861253E2F2E00190D73 /* SampleEarlGrey2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEarlGrey2UITests.swift; sourceTree = "<group>"; };
+		D4433863253E2F2E00190D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B85A0BBA4072126165C824 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA45296DB8F6B0D90A3FFD5E /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4433840253E2C8800190D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97B52297470B2EA574EE375 /* Pods_SampleEarlGrey2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D443385C253E2F2E00190D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04F45F171EE7F9071EBA839 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D561E408E5A9CA181FFA65A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86212971CBCD7B276538697A /* Pods-SampleEarlGrey2.debug.xcconfig */,
+				992234B229806C13546FF593 /* Pods-SampleEarlGrey2.release.xcconfig */,
+				EA45296DB8F6B0D90A3FFD5E /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig */,
+				8CCD1F0114E49B767AFEC2DB /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D443383A253E2C8800190D73 = {
+			isa = PBXGroup;
+			children = (
+				D4433845253E2C8800190D73 /* SampleEarlGrey2 */,
+				D4433860253E2F2E00190D73 /* SampleEarlGrey2UITests */,
+				D4433844253E2C8800190D73 /* Products */,
+				8D561E408E5A9CA181FFA65A /* Pods */,
+				DD7C9144C96C333542CEC0BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4433844253E2C8800190D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4433843253E2C8800190D73 /* SampleEarlGrey2.app */,
+				D443385F253E2F2E00190D73 /* SampleEarlGrey2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4433845253E2C8800190D73 /* SampleEarlGrey2 */ = {
+			isa = PBXGroup;
+			children = (
+				D4433846253E2C8800190D73 /* AppDelegate.swift */,
+				D4433848253E2C8800190D73 /* SceneDelegate.swift */,
+				D443384A253E2C8800190D73 /* ViewController.swift */,
+				D443384C253E2C8800190D73 /* Main.storyboard */,
+				D443384F253E2C8A00190D73 /* Assets.xcassets */,
+				D4433851253E2C8A00190D73 /* LaunchScreen.storyboard */,
+				D4433854253E2C8A00190D73 /* Info.plist */,
+			);
+			path = SampleEarlGrey2;
+			sourceTree = "<group>";
+		};
+		D4433860253E2F2E00190D73 /* SampleEarlGrey2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4433861253E2F2E00190D73 /* SampleEarlGrey2UITests.swift */,
+				D4433863253E2F2E00190D73 /* Info.plist */,
+			);
+			path = SampleEarlGrey2UITests;
+			sourceTree = "<group>";
+		};
+		DD7C9144C96C333542CEC0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45786ECB807BFD6F166F2001 /* Pods_SampleEarlGrey2.framework */,
+				E8B85A0BBA4072126165C824 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4433842253E2C8800190D73 /* SampleEarlGrey2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4433857253E2C8A00190D73 /* Build configuration list for PBXNativeTarget "SampleEarlGrey2" */;
+			buildPhases = (
+				AACCEC08D765EBA377292D79 /* [CP] Check Pods Manifest.lock */,
+				D443383F253E2C8800190D73 /* Sources */,
+				D4433840253E2C8800190D73 /* Frameworks */,
+				D4433841253E2C8800190D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleEarlGrey2;
+			productName = SampleEarlGrey2;
+			productReference = D4433843253E2C8800190D73 /* SampleEarlGrey2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D443385E253E2F2E00190D73 /* SampleEarlGrey2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4433866253E2F2E00190D73 /* Build configuration list for PBXNativeTarget "SampleEarlGrey2UITests" */;
+			buildPhases = (
+				6A4EAB334D1882CA12DE94F0 /* [CP] Check Pods Manifest.lock */,
+				D443385B253E2F2E00190D73 /* Sources */,
+				D443385C253E2F2E00190D73 /* Frameworks */,
+				D443385D253E2F2E00190D73 /* Resources */,
+				4D53E41DACEC4659120786E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4433865253E2F2E00190D73 /* PBXTargetDependency */,
+			);
+			name = SampleEarlGrey2UITests;
+			productName = SampleEarlGrey2UITests;
+			productReference = D443385F253E2F2E00190D73 /* SampleEarlGrey2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D443383B253E2C8800190D73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D4433842253E2C8800190D73 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D443385E253E2F2E00190D73 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D4433842253E2C8800190D73;
+					};
+				};
+			};
+			buildConfigurationList = D443383E253E2C8800190D73 /* Build configuration list for PBXProject "SampleEarlGrey2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D443383A253E2C8800190D73;
+			productRefGroup = D4433844253E2C8800190D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4433842253E2C8800190D73 /* SampleEarlGrey2 */,
+				D443385E253E2F2E00190D73 /* SampleEarlGrey2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4433841253E2C8800190D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4433853253E2C8A00190D73 /* LaunchScreen.storyboard in Resources */,
+				D4433850253E2C8A00190D73 /* Assets.xcassets in Resources */,
+				D443384E253E2C8800190D73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D443385D253E2F2E00190D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D53E41DACEC4659120786E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4EAB334D1882CA12DE94F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AACCEC08D765EBA377292D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleEarlGrey2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D443383F253E2C8800190D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D443384B253E2C8800190D73 /* ViewController.swift in Sources */,
+				D4433847253E2C8800190D73 /* AppDelegate.swift in Sources */,
+				D4433849253E2C8800190D73 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D443385B253E2F2E00190D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4433862253E2F2E00190D73 /* SampleEarlGrey2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4433865253E2F2E00190D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4433842253E2C8800190D73 /* SampleEarlGrey2 */;
+			targetProxy = D4433864253E2F2E00190D73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D443384C253E2C8800190D73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D443384D253E2C8800190D73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4433851253E2C8A00190D73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4433852253E2C8A00190D73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4433855253E2C8A00190D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4433856253E2C8A00190D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4433858253E2C8A00190D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86212971CBCD7B276538697A /* Pods-SampleEarlGrey2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 397DTYMNBF;
+				INFOPLIST_FILE = SampleEarlGrey2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robmaceachern.SampleEarlGrey2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4433859253E2C8A00190D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992234B229806C13546FF593 /* Pods-SampleEarlGrey2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 397DTYMNBF;
+				INFOPLIST_FILE = SampleEarlGrey2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robmaceachern.SampleEarlGrey2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4433867253E2F2E00190D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA45296DB8F6B0D90A3FFD5E /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 397DTYMNBF;
+				INFOPLIST_FILE = SampleEarlGrey2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robmaceachern.SampleEarlGrey2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleEarlGrey2;
+			};
+			name = Debug;
+		};
+		D4433868253E2F2E00190D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCD1F0114E49B767AFEC2DB /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 397DTYMNBF;
+				INFOPLIST_FILE = SampleEarlGrey2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robmaceachern.SampleEarlGrey2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleEarlGrey2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D443383E253E2C8800190D73 /* Build configuration list for PBXProject "SampleEarlGrey2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4433855253E2C8A00190D73 /* Debug */,
+				D4433856253E2C8A00190D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4433857253E2C8A00190D73 /* Build configuration list for PBXNativeTarget "SampleEarlGrey2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4433858253E2C8A00190D73 /* Debug */,
+				D4433859253E2C8A00190D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4433866253E2F2E00190D73 /* Build configuration list for PBXNativeTarget "SampleEarlGrey2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4433867253E2F2E00190D73 /* Debug */,
+				D4433868253E2F2E00190D73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D443383B253E2C8800190D73 /* Project object */;
+}
