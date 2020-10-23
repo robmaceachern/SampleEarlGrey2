@@ -3,7 +3,8 @@ target 'SampleEarlGrey2' do
   
   pod 'EarlGreyApp'
 
-  target 'SampleEarlGrey2UITests' do
-    pod 'EarlGreyTest'
-  end
+end
+
+target 'SampleEarlGrey2UITests' do
+  pod 'EarlGreyTest'
 end

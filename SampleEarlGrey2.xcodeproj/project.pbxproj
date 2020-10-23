@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		309A5A9638AAA338AEE461CB /* libPods-SampleEarlGrey2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFA8BE5B215F193207E5E56 /* libPods-SampleEarlGrey2UITests.a */; };
 		D4433847253E2C8800190D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4433846253E2C8800190D73 /* AppDelegate.swift */; };
 		D4433849253E2C8800190D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4433848253E2C8800190D73 /* SceneDelegate.swift */; };
 		D443384B253E2C8800190D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443384A253E2C8800190D73 /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		D4433850253E2C8A00190D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D443384F253E2C8A00190D73 /* Assets.xcassets */; };
 		D4433853253E2C8A00190D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4433851253E2C8A00190D73 /* LaunchScreen.storyboard */; };
 		D4433862253E2F2E00190D73 /* SampleEarlGrey2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4433861253E2F2E00190D73 /* SampleEarlGrey2UITests.swift */; };
-		F04F45F171EE7F9071EBA839 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B85A0BBA4072126165C824 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework */; };
 		F97B52297470B2EA574EE375 /* Pods_SampleEarlGrey2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45786ECB807BFD6F166F2001 /* Pods_SampleEarlGrey2.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +30,12 @@
 
 /* Begin PBXFileReference section */
 		45786ECB807BFD6F166F2001 /* Pods_SampleEarlGrey2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleEarlGrey2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738E37DF6587E840C026D9F4 /* Pods-SampleEarlGrey2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2UITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2UITests/Pods-SampleEarlGrey2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CFA8BE5B215F193207E5E56 /* libPods-SampleEarlGrey2UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleEarlGrey2UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86212971CBCD7B276538697A /* Pods-SampleEarlGrey2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2.debug.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2/Pods-SampleEarlGrey2.debug.xcconfig"; sourceTree = "<group>"; };
 		8CCD1F0114E49B767AFEC2DB /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		992234B229806C13546FF593 /* Pods-SampleEarlGrey2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2.release.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2/Pods-SampleEarlGrey2.release.xcconfig"; sourceTree = "<group>"; };
+		C8A1AE108FA87313BE2AEBCF /* Pods-SampleEarlGrey2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2UITests.release.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2UITests/Pods-SampleEarlGrey2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		D4433843253E2C8800190D73 /* SampleEarlGrey2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleEarlGrey2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4433846253E2C8800190D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4433848253E2C8800190D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +47,6 @@
 		D443385F253E2F2E00190D73 /* SampleEarlGrey2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleEarlGrey2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4433861253E2F2E00190D73 /* SampleEarlGrey2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEarlGrey2UITests.swift; sourceTree = "<group>"; };
 		D4433863253E2F2E00190D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8B85A0BBA4072126165C824 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA45296DB8F6B0D90A3FFD5E /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04F45F171EE7F9071EBA839 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework in Frameworks */,
+				309A5A9638AAA338AEE461CB /* libPods-SampleEarlGrey2UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +77,8 @@
 				992234B229806C13546FF593 /* Pods-SampleEarlGrey2.release.xcconfig */,
 				EA45296DB8F6B0D90A3FFD5E /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig */,
 				8CCD1F0114E49B767AFEC2DB /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig */,
+				738E37DF6587E840C026D9F4 /* Pods-SampleEarlGrey2UITests.debug.xcconfig */,
+				C8A1AE108FA87313BE2AEBCF /* Pods-SampleEarlGrey2UITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -126,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				45786ECB807BFD6F166F2001 /* Pods_SampleEarlGrey2.framework */,
-				E8B85A0BBA4072126165C824 /* Pods_SampleEarlGrey2_SampleEarlGrey2UITests.framework */,
+				7CFA8BE5B215F193207E5E56 /* libPods-SampleEarlGrey2UITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,7 +164,6 @@
 				D443385B253E2F2E00190D73 /* Sources */,
 				D443385C253E2F2E00190D73 /* Frameworks */,
 				D443385D253E2F2E00190D73 /* Resources */,
-				4D53E41DACEC4659120786E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,23 +233,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4D53E41DACEC4659120786E3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2-SampleEarlGrey2UITests/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6A4EAB334D1882CA12DE94F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,7 +248,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleEarlGrey2-SampleEarlGrey2UITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SampleEarlGrey2UITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -500,7 +486,7 @@
 		};
 		D4433867253E2F2E00190D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA45296DB8F6B0D90A3FFD5E /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.debug.xcconfig */;
+			baseConfigurationReference = 738E37DF6587E840C026D9F4 /* Pods-SampleEarlGrey2UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 397DTYMNBF;
@@ -521,7 +507,7 @@
 		};
 		D4433868253E2F2E00190D73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CCD1F0114E49B767AFEC2DB /* Pods-SampleEarlGrey2-SampleEarlGrey2UITests.release.xcconfig */;
+			baseConfigurationReference = C8A1AE108FA87313BE2AEBCF /* Pods-SampleEarlGrey2UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 397DTYMNBF;
