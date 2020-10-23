@@ -146,6 +146,7 @@
 				D443383F253E2C8800190D73 /* Sources */,
 				D4433840253E2C8800190D73 /* Frameworks */,
 				D4433841253E2C8800190D73 /* Resources */,
+				10C15AC8BCEF60E6FF15B920 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +234,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		10C15AC8BCEF60E6FF15B920 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2/Pods-SampleEarlGrey2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2/Pods-SampleEarlGrey2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleEarlGrey2/Pods-SampleEarlGrey2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6A4EAB334D1882CA12DE94F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

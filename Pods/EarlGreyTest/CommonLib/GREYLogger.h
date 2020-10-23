@@ -42,15 +42,16 @@ typedef NS_OPTIONS(NSInteger, GREYVerboseLogType) {
 
 /**
  * Prints a log statement if any of the following keys are present in NSUserDefaults at the start
- * of the launch of the application process.
+ * of the launch of the application process:
  *
- * To turn on for a test run - pass in a @c GREYLogVerboseType key with a non-zero string value in
- * -[XCUIApplication launchArguments].
+ * 1. @c kGREYAllowVerboseLogging which prints interaction related logs.
+ * 2. @c kGREYAllowVerboseAppStateLogging which prints interaction and App-state related logs.
  *
- * e.g. Prints all interaction related logs.
+ * To turn on for a test run - pass in @c kGREYAllowVerboseLogging or
+ * @c kGREYAllowVerboseAppStateLogging key in -[XCUIApplication launchArguments] to @c YES.
  * @code
  *   NSMutableArray<NSString *> *launchArguments = [[NSMutableArray alloc] init];
- *   [launchArguments addObject:[@"-" stringByAppendingString:@"kGREYVerboseLogTypeInteraction"]];
+ *   [launchArguments addObject:[@"-" stringByAppendingString:kGREYAllowVerboseAppStateLogging]];
  *   [launchArguments addObject:@"1"];
  *   self.application.launchArguments = launchArguments;
  *   [self.application launch];
